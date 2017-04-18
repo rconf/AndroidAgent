@@ -51,7 +51,7 @@ public class AboutDialog extends Dialog {
 
         long lastUpdt = ocssettings.getLastUpdt();
 
-        StringBuilder sb = new StringBuilder("OCS Inventory NG android Agent \n");
+        StringBuilder sb = new StringBuilder("EAA Android Agent \n");
         sb.append("Version :");
         try {
             sb.append(mContext.getPackageManager().
